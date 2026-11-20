@@ -1,0 +1,91 @@
+{
+  "folds": [
+    {
+      "fold": 1,
+      "end": "2021-08-15",
+      "n": 284,
+      "mean_R": -0.1909,
+      "sum_R": -54.22,
+      "pass": false
+    },
+    {
+      "fold": 2,
+      "end": "2023-04-01",
+      "n": 156,
+      "mean_R": -0.1403,
+      "sum_R": -21.88,
+      "pass": false
+    },
+    {
+      "fold": 3,
+      "end": "2024-11-15",
+      "n": 190,
+      "mean_R": -0.0207,
+      "sum_R": -3.93,
+      "pass": false
+    },
+    {
+      "fold": 4,
+      "end": "2026-09-30",
+      "n": 162,
+      "mean_R": 0.1834,
+      "sum_R": 29.71,
+      "pass": true
+    }
+  ],
+  "folds_passed": 1,
+  "gate_pass": false,
+  "total_trades": 792,
+  "spread_assumption_atr": 0.05,
+  "strategy_id": "meanrev_bbrsi",
+  "strategy_name": "BBRSI mean reversion",
+  "data_source": "Dukascopy Bank SA, BID, UTC bar open (broker_mismatch_risk)",
+  "broker_mismatch_risk": true,
+  "trades_sample": [
+    {
+      "t": "2020-02-24T16:00:00+00:00",
+      "sym": "XAUUSD",
+      "side": -1,
+      "r_gross": 1.5,
+      "r_net": 1.4533743181570693,
+      "fold": 0,
+      "strategy": "meanrev_bbrsi"
+    },
+    {
+      "t": "2020-02-29T00:00:00+00:00",
+      "sym": "XAUUSD",
+      "side": 1,
+      "r_gross": 1.5,
+      "r_net": 1.436428901469239,
+      "fold": 0,
+      "strategy": "meanrev_bbrsi"
+    },
+    {
+      "t": "2020-03-12T20:00:00+00:00",
+      "sym": "XAUUSD",
+      "side": 1,
+      "r_gross": -1.0,
+      "r_net": -1.0951810782586522,
+      "fold": 0,
+      "strategy": "meanrev_bbrsi"
+    },
+    {
+      "t": "2020-03-13T00:00:00+00:00",
+      "sym": "XAUUSD",
+      "side": 1,
+      "r_gross": -1.0,
+      "r_net": -1.0666179914343457,
+      "fold": 0,
+      "strategy": "meanrev_bbrsi"
+    },
+    {
+      "t": "2020-04-07T00:00:00+00:00",
+      "sym": "XAUUSD",
+      "side": -1,
+      "r_gross": -1.0,
+      "r_net": -1.0384737811504632,
+      "fold": 0,
+      "strategy": "meanrev_bbrsi"
+    }
+  ]
+}

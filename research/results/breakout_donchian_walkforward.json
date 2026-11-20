@@ -1,0 +1,45 @@
+{
+  "folds": [
+    {
+      "fold": 1,
+      "end": "2021-08-15",
+      "n": 0,
+      "mean_R": null,
+      "sum_R": 0.0,
+      "pass": false
+    },
+    {
+      "fold": 2,
+      "end": "2023-04-01",
+      "n": 0,
+      "mean_R": null,
+      "sum_R": 0.0,
+      "pass": false
+    },
+    {
+      "fold": 3,
+      "end": "2024-11-15",
+      "n": 0,
+      "mean_R": null,
+      "sum_R": 0.0,
+      "pass": false
+    },
+    {
+      "fold": 4,
+      "end": "2026-09-30",
+      "n": 0,
+      "mean_R": null,
+      "sum_R": 0.0,
+      "pass": false
+    }
+  ],
+  "folds_passed": 0,
+  "gate_pass": false,
+  "total_trades": 0,
+  "spread_assumption_atr": 0.05,
+  "strategy_id": "breakout_donchian",
+  "strategy_name": "LRC/Donchian breakout",
+  "data_source": "Dukascopy Bank SA, BID, UTC bar open (broker_mismatch_risk)",
+  "broker_mismatch_risk": true,
+  "trades_sample": []
+}

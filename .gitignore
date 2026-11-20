@@ -1,0 +1,26 @@
+# Python
+research/.cache/
+research/.walkforward_cache/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets and broker data
+*.set
+Common/
+credentials/
+*.env
+
+# Generated
+research/results/*
+!research/results/_summary.json
+!research/results/*_walkforward.json
+research/run_screen.log
+dist/*.ex5
+MQL5/**/*.ex5
+compile.log
+
+# OS
+.DS_Store
+Thumbs.db

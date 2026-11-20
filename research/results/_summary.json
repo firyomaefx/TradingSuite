@@ -1,0 +1,23 @@
+{
+  "screen": {
+    "trend_3maf": {
+      "folds_passed": 0,
+      "gate_pass": false,
+      "total_trades": 4908,
+      "path": "trend_3maf_walkforward.json"
+    },
+    "breakout_donchian": {
+      "folds_passed": 0,
+      "gate_pass": false,
+      "total_trades": 0,
+      "path": "breakout_donchian_walkforward.json"
+    },
+    "meanrev_bbrsi": {
+      "folds_passed": 1,
+      "gate_pass": false,
+      "total_trades": 792,
+      "path": "meanrev_bbrsi_walkforward.json"
+    }
+  },
+  "any_gate_pass": false
+}
